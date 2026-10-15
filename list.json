@@ -1,0 +1,92 @@
+[
+    {
+        "id": "rive",
+        "name": "Rive",
+        "url": "https://www.rivestream.app",
+        "movie_url_pattern": "{url}/watch?type=movie&id={tmdbId}",
+        "tv_url_pattern": "{url}/watch?type=tv&id={tmdbId}&season={season}&episode={episode}",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 45
+    },
+    {
+        "id": "vidlink",
+        "name": "VidLink",
+        "url": "https://vidlink.pro",
+        "movie_url_pattern": "{url}/movie/{tmdbId}?autoplay=true",
+        "tv_url_pattern": "{url}/tv/{tmdbId}/{season}/{episode}?autoplay=true",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 45
+    },
+    {
+        "id": "vidsrc",
+        "name": "VidSrc",
+        "url": "https://vidsrc.sbs",
+        "movie_url_pattern": "{url}/embed/movie/{tmdbId}?autoplay=true",
+        "tv_url_pattern": "{url}/embed/tv/{tmdbId}/{season}/{episode}?autoplay=true",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 45
+    },
+    {
+        "id": "cinejoy",
+        "name": "CineJoy",
+        "url": "https://cinejoy.to",
+        "movie_url_pattern": "{url}/watch/{type}/{tmdbId}",
+        "tv_url_pattern": "{url}/watch/{type}/{tmdbId}/{season}/{episode}",
+        "movie_alias": "movie",
+        "tv_alias": "tv",
+        "scraper_timeout_seconds": 30
+    },
+    {
+        "id": "vidfast",
+        "name": "VidFast",
+        "url": "https://vidfast.vc",
+        "movie_url_pattern": null,
+        "tv_url_pattern": null,
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 30
+    },
+    {
+        "id": "cinesrc",
+        "name": "CineSrc",
+        "url": "https://cinesrc.st/embed",
+        "movie_url_pattern": null,
+        "tv_url_pattern": null,
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 30
+    },
+    {
+        "id": "cineplay",
+        "name": "CinePlay",
+        "url": "https://www.cineplay.to",
+        "movie_url_pattern": "{url}/{type}/{tmdbId}?play=true",
+        "tv_url_pattern": "{url}/{type}/{tmdbId}/{season}/{episode}?play=true",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 30
+    },
+    {
+        "id": "screenscape",
+        "name": "ScreenScape",
+        "url": "https://screenscape.me",
+        "movie_url_pattern": "{url}/embed?tmdb={tmdbId}&type=movie&autoplay=true",
+        "tv_url_pattern": "{url}/embed?tmdb={tmdbId}&type=tv&s={season}&e={episode}&autoplay=true",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 45
+    },
+    {
+        "id": "videasy",
+        "name": "Videasy",
+        "url": "https://player.videasy.to",
+        "movie_url_pattern": "{url}/{type}/{tmdbId}",
+        "tv_url_pattern": "{url}/{type}/{tmdbId}/{season}/{episode}",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 30
+    }
+]
