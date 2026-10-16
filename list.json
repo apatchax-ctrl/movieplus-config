@@ -1,6 +1,6 @@
 [
     {
-        "id": "rive",
+        "id": "rive APATCHA",
         "name": "Rive",
         "url": "https://www.rivestream.app",
         "movie_url_pattern": "{url}/watch?type=movie&id={tmdbId}",
