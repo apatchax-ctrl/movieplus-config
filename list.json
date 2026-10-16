@@ -2,7 +2,7 @@
     {
         "id": "rive APATCHA",
         "name": "Rive",
-        "url": "https://www.rivestream.app",
+        "url": "https://www.rivestream.appX",
         "movie_url_pattern": "{url}/watch?type=movie&id={tmdbId}",
         "tv_url_pattern": "{url}/watch?type=tv&id={tmdbId}&season={season}&episode={episode}",
         "movie_alias": null,
