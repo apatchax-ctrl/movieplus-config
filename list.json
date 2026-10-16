@@ -1,8 +1,8 @@
 [
     {
-        "id": "riveXXX",
-        "name": "Rive",
-        "url": "https://www.rivestream.appXXX",
+        "id": "rive",
+        "name": "Rive TEST",
+        "url": "https://www.rivestream.app",
         "movie_url_pattern": "{url}/watch?type=movie&id={tmdbId}",
         "tv_url_pattern": "{url}/watch?type=tv&id={tmdbId}&season={season}&episode={episode}",
         "movie_alias": null,
