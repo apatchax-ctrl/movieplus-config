@@ -28,5 +28,25 @@
         "movie_alias": null,
         "tv_alias": null,
         "scraper_timeout_seconds": 60
+    },
+    {
+        "id": "nyxora",
+        "name": "Nyxora",
+        "url": "https://nyxora.tv",
+        "movie_url_pattern": "https://nyxora.tv/titre/movie/{tmdbid}",
+        "tv_url_pattern": "https://nyxora.tv/titre/tv/{tmdbid}/{season}/{episode}",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 60
+    },
+    {
+        "id": "movix",
+        "name": "Movix",
+        "url": "https://movix.zip",
+        "movie_url_pattern": "https://movix.zip/movie/{slug}",
+        "tv_url_pattern": "https://movix.zip/tv/{slug}/{season}/{episode}",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 60
     }
 ]
