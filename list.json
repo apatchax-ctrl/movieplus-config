@@ -33,7 +33,7 @@
         "id": "nyxora",
         "name": "Nyxora",
         "url": "https://nyxora.tv",
-        "movie_url_pattern": "https://nyxora.tv/titre/movie/{tmdbid}",
+        "movie_url_pattern": "https://api.nyxora.tv/movie/{tmdbId}",
         "tv_url_pattern": "https://nyxora.tv/titre/tv/{tmdbid}/{season}/{episode}",
         "movie_alias": null,
         "tv_alias": null,
