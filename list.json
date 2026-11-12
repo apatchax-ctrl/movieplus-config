@@ -1,5 +1,15 @@
 [
     {
+        "id": "nyxora",
+        "name": "Nyxora",
+        "url": "https://nyxora.tv",
+        "movie_url_pattern": "https://api.nyxora.tv/movie/{tmdbId}",
+        "tv_url_pattern": "https://nyxora.tv/titre/tv/{tmdbid}/{season}/{episode}",
+        "movie_alias": null,
+        "tv_alias": null,
+        "scraper_timeout_seconds": 60
+    },
+    {
         "id": "frvideosrc",
         "name": "FRVideoSrc",
         "url": "https://frvideosrc.co",
@@ -25,16 +35,6 @@
         "url": "https://frembed.bar",
         "movie_url_pattern": "https://frembed.bar/embed/movie/{tmdbId}",
         "tv_url_pattern": "//frembed.bar/embed/serie/{tmdbId}?sa={saison}&epi={episode}",
-        "movie_alias": null,
-        "tv_alias": null,
-        "scraper_timeout_seconds": 60
-    },
-    {
-        "id": "nyxora",
-        "name": "Nyxora",
-        "url": "https://nyxora.tv",
-        "movie_url_pattern": "https://api.nyxora.tv/movie/{tmdbId}",
-        "tv_url_pattern": "https://nyxora.tv/titre/tv/{tmdbid}/{season}/{episode}",
         "movie_alias": null,
         "tv_alias": null,
         "scraper_timeout_seconds": 60
